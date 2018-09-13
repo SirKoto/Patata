@@ -1,0 +1,1 @@
+Víctor Del Valle Martínez, Laura Carrio Vialdrich, María Florencia Tarditti i Joan Vilà Cuñat acceptem les classes compartides programades pels altres grups amb excepció del DFS de la classe ForkFulkerson que no compleix les especificacions pactades. Les altres compleixen les especificacions pactades i funcionen correctament. 

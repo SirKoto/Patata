@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Menu class="java.awt.PopupMenu" name="popupMenu1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="popupMenu1"/>
+      </Properties>
+    </Menu>
+    <Menu class="java.awt.PopupMenu" name="popupMenu2">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="popupMenu2"/>
+      </Properties>
+    </Menu>
+    <Menu class="java.awt.PopupMenu" name="popupMenu3">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="popupMenu3"/>
+      </Properties>
+    </Menu>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="tiempo4" min="-2" pref="82" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="precio4" min="-2" pref="82" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="kilometros4" min="-2" pref="82" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="enviar4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Component id="textNCaminos3" min="-2" pref="61" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="seleccionadoOrigen4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="listOrigen4" min="-2" pref="144" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="labeltiempo4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                      <Component id="labelkilometros4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="labelprecio4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="enviar3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="textNumeroCiudades1" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="enviarDatosParametros1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="insertNomCiudad2" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="textNombreCiudad2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="idCiudadActual2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="enviar2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="textNomMapa1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelNumeroCiudades1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textNombreMapa1" alignment="0" min="-2" pref="145" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="seleccionadoDestino4" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="labelInfoCaminos34" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="idCamino4" min="-2" pref="9" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="listDestino4" min="-2" pref="144" max="-2" attributes="0"/>
+                                  <Component id="labelNCaminos3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="178" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="textNomMapa1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="textNombreMapa1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="labelNumeroCiudades1" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textNumeroCiudades1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enviarDatosParametros1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="idCiudadActual2" min="-2" max="-2" attributes="0"/>
+                  <Component id="textNombreCiudad2" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="insertNomCiudad2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enviar2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelInfoCaminos34" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enviar3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textNCaminos3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelNCaminos3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idCamino4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="seleccionadoOrigen4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="seleccionadoDestino4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="listDestino4" pref="193" max="32767" attributes="0"/>
+                  <Component id="listOrigen4" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="72" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labeltiempo4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelkilometros4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelprecio4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="tiempo4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="precio4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kilometros4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="enviar4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelNumeroCiudades1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xbf;Cuant&#xe1;s ciudades quieres introducir?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textNumeroCiudades1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textNumeroCiudades1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="enviarDatosParametros1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enviar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviarDatosParametros1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="textNomMapa1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del Mapa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textNombreMapa1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="textNombreCiudad2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre Pueblo:  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="idCiudadActual2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="insertNomCiudad2">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="insertNomCiudad2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="enviar2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enviar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviar2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelInfoCaminos34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Informacion Caminos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="enviar3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enviar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviar3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textNCaminos3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNCaminos3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xba; Caminos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="idCamino4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="enviar4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enviar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="enviar4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.List" name="listOrigen4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listOrigen4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.List" name="listDestino4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="listDestino4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="seleccionadoOrigen4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="seleccionadoDestino4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labeltiempo4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiepo (min)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tiempo4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelkilometros4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distancia (km)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kilometros4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelprecio4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Precio (euros)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="precio4">
+    </Component>
+  </SubComponents>
+</Form>

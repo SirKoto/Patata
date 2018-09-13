@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,85,0,0,3,-38"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="simularPanel">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="First"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="simularButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xa1;Hacer la simulaci&#xf3;n!"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simularButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="result"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="displayPanel">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Last"/>
+        </Constraint>
+      </Constraints>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="noSolucionPanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cambiarDest" min="-2" pref="209" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="subreunion" min="-2" pref="209" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ocultarNoResult" min="-2" pref="209" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                      <Component id="explicacionNoResult" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="436" max="-2" attributes="0"/>
+                      <Component id="queQuiereLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Component id="optionNoSolutionPanel" min="-2" pref="847" max="-2" attributes="0"/>
+                      <EmptySpace pref="74" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="explicacionNoResult" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="queQuiereLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cambiarDest" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="subreunion" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ocultarNoResult" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="optionNoSolutionPanel" min="-2" pref="256" max="-2" attributes="0"/>
+                      <EmptySpace pref="167" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="explicacionNoResult">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="                La simulaci&#xf3;n no ha obtendio una ruta para cada agente. Hay algunos que no pueden llegar al pueblo de destino"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="queQuiereLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; desea hacer?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="cambiarDest">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cambiar la ciudad de destino"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cambiarDestActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="subreunion">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hacer una subreuni&#xf3;n"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subreunionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="ocultarNoResult">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nada"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ocultarNoResultActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="optionNoSolutionPanel">
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="newDestPanel">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="368" max="-2" attributes="0"/>
+                                      <Component id="newDestLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="315" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="newDest" min="-2" pref="203" max="-2" attributes="0"/>
+                                          <Component id="newDestField" min="-2" pref="203" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="329" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="newDestLabel" min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="newDestField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="newDest" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="44" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="newDestLabel">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Nuevo destino:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="newDestField">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newDestFieldActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="newDest">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Actualizar destino"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newDestActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="newSubreunionPanel">
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="315" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="newSubreunion" alignment="0" min="-2" pref="203" max="-2" attributes="0"/>
+                                          <Component id="newDestSubreunionField" alignment="0" min="-2" pref="203" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="297" max="-2" attributes="0"/>
+                                      <Component id="newDestSubreunion" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="168" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                              <Component id="newDestSubreunion" min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="newDestSubreunionField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="newSubreunion" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="10" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="newSubreunion">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Actualizar destino"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newSubreunionActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="newDestSubreunionField">
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newDestSubreunionFieldActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="newDestSubreunion">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Destino alternativo para la subreuni&#xf3;n:"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel1">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Los agentes que no hayan podido llegar al destino principal intentaran llegar a este."/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+              <LayoutCode>
+                <CodeStatement>
+                  <CodeExpression id="1_optionNoSolutionPanel">
+                    <CodeVariable name="optionNoSolutionPanel" type="8194" declaredType="javax.swing.JPanel"/>
+                    <ExpressionOrigin>
+                      <ExpressionProvider type="ComponentRef">
+                        <ComponentRef name="optionNoSolutionPanel"/>
+                      </ExpressionProvider>
+                    </ExpressionOrigin>
+                  </CodeExpression>
+                  <StatementProvider type="CodeMethod">
+                    <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+                  </StatementProvider>
+                  <Parameters>
+                    <CodeExpression id="2">
+                      <ExpressionOrigin>
+                        <ExpressionProvider type="CodeConstructor">
+                          <CodeConstructor class="javax.swing.OverlayLayout" parameterTypes="java.awt.Container"/>
+                        </ExpressionProvider>
+                        <Parameters>
+                          <CodeExpression id="1_optionNoSolutionPanel"/>
+                        </Parameters>
+                      </ExpressionOrigin>
+                    </CodeExpression>
+                  </Parameters>
+                </CodeStatement>
+              </LayoutCode>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="fotoPanel">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="fotoLabel">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Presentacio/resources/World-War-Two-Soldiers-Training.jpg"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+      <LayoutCode>
+        <CodeStatement>
+          <CodeExpression id="3_displayPanel">
+            <CodeVariable name="displayPanel" type="8194" declaredType="javax.swing.JPanel"/>
+            <ExpressionOrigin>
+              <ExpressionProvider type="ComponentRef">
+                <ComponentRef name="displayPanel"/>
+              </ExpressionProvider>
+            </ExpressionOrigin>
+          </CodeExpression>
+          <StatementProvider type="CodeMethod">
+            <CodeMethod name="setLayout" class="java.awt.Container" parameterTypes="java.awt.LayoutManager"/>
+          </StatementProvider>
+          <Parameters>
+            <CodeExpression id="4">
+              <ExpressionOrigin>
+                <ExpressionProvider type="CodeConstructor">
+                  <CodeConstructor class="javax.swing.OverlayLayout" parameterTypes="java.awt.Container"/>
+                </ExpressionProvider>
+                <Parameters>
+                  <CodeExpression id="3_displayPanel"/>
+                </Parameters>
+              </ExpressionOrigin>
+            </CodeExpression>
+          </Parameters>
+        </CodeStatement>
+      </LayoutCode>
+    </Container>
+  </SubComponents>
+</Form>

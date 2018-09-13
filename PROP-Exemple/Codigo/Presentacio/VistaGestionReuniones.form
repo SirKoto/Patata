@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="groupCriterio">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="groupAlgoritmo">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,47,0,0,3,-104"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="reunActualPanel">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="First"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelCurrOrig" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrName" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrCrit" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="currName" min="-2" max="-2" attributes="0"/>
+                      <Component id="currOrig" min="-2" max="-2" attributes="0"/>
+                      <Component id="currCrit" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="229" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelCurrDest" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrAlg" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrN" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="currDest" min="-2" max="-2" attributes="0"/>
+                      <Component id="currN" min="-2" max="-2" attributes="0"/>
+                      <Component id="currAlg" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="354" max="-2" attributes="0"/>
+                  <Component id="nuevaReunion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelCurrName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelCurrDest" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrOrig" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currOrig" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currDest" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelCurrCrit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelCurrAlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currCrit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="currAlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="80" max="32767" attributes="0"/>
+                  <Component id="nuevaReunion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="nuevaReunion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Crear una nueva reuni&#xf3;n"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nuevaReunionActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre de la reuni&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrN">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de agentes:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrOrig">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pueblo origen (ID, nombre):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrDest">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pueblo destino (ID, nombre):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrCrit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Criterio de obtenci&#xf3;n de rutas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelCurrAlg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Algoritmo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="currName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="currOrig">
+        </Component>
+        <Component class="javax.swing.JLabel" name="currCrit">
+        </Component>
+        <Component class="javax.swing.JLabel" name="currN">
+        </Component>
+        <Component class="javax.swing.JLabel" name="currDest">
+        </Component>
+        <Component class="javax.swing.JLabel" name="currAlg">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="nuevaReunPanel">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="radioCosteBillete" min="-2" max="-2" attributes="0"/>
+                              <Component id="radioKilometros" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="labelNewCrit" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelNewOrig" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelNewName" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="fieldOrig" pref="129" max="32767" attributes="0"/>
+                              <Component id="fieldName" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="radioFFD" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="56" max="32767" attributes="0"/>
+                                  <Component id="doneButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="labelNewAlg" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="radioEK" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="radioFF" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="labelNewDest" min="-2" max="-2" attributes="0"/>
+                                              <Component id="labelNewN" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="fieldN" pref="129" max="32767" attributes="0"/>
+                                              <Component id="fieldDest" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="radioTiempo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="740" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelNewName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelNewN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelNewOrig" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelNewDest" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldOrig" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldDest" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="labelNewCrit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelNewAlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="radioTiempo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="radioFF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="radioKilometros" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="radioEK" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="radioCosteBillete" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="radioFFD" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="doneButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="67" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="labelNewName">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombre de la reuni&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelNewOrig">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID pueblo origen:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelNewN">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de agentes:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelNewDest">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID pueblo destino:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelNewCrit">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Criterio de obtenci&#xf3;n de rutas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="labelNewAlg">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Algoritmo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fieldName">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fieldOrig">
+        </Component>
+        <Component class="javax.swing.JTextField" name="fieldN">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldNActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fieldDest">
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioTiempo">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupCriterio"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Tiempo"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radioTiempoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioKilometros">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupCriterio"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Distancia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radioKilometrosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioCosteBillete">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupCriterio"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Coste del Billete"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioFF">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupAlgoritmo"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ford Fulkerson"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioEK">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupAlgoritmo"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Edmonds Karp"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="radioFFD">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="groupAlgoritmo"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ford Fulkerson + Dijkstra"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="doneButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xa1;Hecho!"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="doneButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

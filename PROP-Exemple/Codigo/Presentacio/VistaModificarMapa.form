@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="titulo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelPueblo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="labelTramo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="actualizarPueblo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="actualizarTramo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="idTramoField" min="-2" pref="71" max="-2" attributes="0"/>
+                          <Component id="idTramoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nombreTramoField" min="-2" pref="133" max="-2" attributes="0"/>
+                          <Component id="nombreTramoLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tiempoTramoField" min="-2" pref="133" max="-2" attributes="0"/>
+                          <Component id="tiempoTramoLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="kilometrosTramoField" min="-2" pref="133" max="-2" attributes="0"/>
+                          <Component id="kilometrosTramoLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="costeBilleteTramoLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="costeBilleteTramoField" min="-2" pref="133" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="idPuebloField" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nombrePuebloLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="nombrePuebloField" min="-2" pref="133" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="idPuebloLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Component id="labelPueblo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="idPuebloLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nombrePuebloLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nombrePuebloField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idPuebloField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="actualizarPueblo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+              <Component id="labelTramo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="costeBilleteTramoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kilometrosTramoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tiempoTramoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nombreTramoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="idTramoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="idTramoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nombreTramoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tiempoTramoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kilometrosTramoField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="costeBilleteTramoField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="actualizarTramo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="149" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titulo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar el mapa del sistema"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelPueblo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar Pueblo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelTramo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modificar Tramo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="idPuebloLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="idPuebloField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="idPuebloFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nombrePuebloLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nombrePuebloField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="idTramoField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="nombreTramoField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="idTramoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nombreTramoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tiempoTramoField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="kilometrosTramoField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="costeBilleteTramoField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="tiempoTramoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tiempo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kilometrosTramoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Distancia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="costeBilleteTramoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Coste del billete:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="actualizarPueblo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Actualizar Pueblo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="actualizarPuebloActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="actualizarTramo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Actualizar Tramo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="actualizarTramoActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
