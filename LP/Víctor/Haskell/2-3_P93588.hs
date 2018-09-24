@@ -1,0 +1,11 @@
+myMap :: (a -> b) -> [a] -> [b]
+myFilter :: (a -> Bool) -> [a] -> [a]
+myZipWith :: (a -> b -> c) -> [a] -> [b] -> [c]
+thingify :: [Int] -> [Int] -> [(Int, Int)]
+factors :: Int -> [Int]
+
+myMap f l = [ f c | c <- l ]
+myFilter f l = [ c | c <- l, f c ]
+myZipWith f l1 l2 = [ f a b | (a, b) <- zip l1 l2 ]
+thingify l1 l2 = [ (a, b) | a <- l1, b <- l2, mod a b == 0 ]
+factors n = 1:[ c | c <- [2,3..n], mod n c == 0 ]
